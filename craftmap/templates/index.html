@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CraftMap</title>
+</head>
+<body>
+    <h1>Welcome to CraftMap!</h1>
+    {% if worlds %}
+        <h2>Select a world:</h2>
+        <ul>
+        {% for world in worlds %}
+            <li>
+                <img src="{{ world.icon_path }}" alt="{{ world.name }} icon">
+                {{ world.name }}
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <h2>No worlds found. Create a new world to get started.</h2>
+    {% endif %}
+</body>
+</html>
