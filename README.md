@@ -6,11 +6,21 @@ CraftMap is a simple Flask application that allows you to load and display Minec
 
 ## Requirements:
 
-1. Install Python and Pip. 
-1. Clone this repository: `git clone https://github.com/yourusername/CraftMap.git`
-2. Navigate to the project directory: `cd CraftMap`
-3. Install the dependencies: `pip install -r requirements.txt`
+1. Install Python and Pip.
+2. Within a Terminal or Command Prompt, clone this repository into your .minecraft folder: 
+```
+### Default Windows location
+cd C:\Users\[username]\AppData\Roaming\.minecraft\
+git clone https://github.com/alixvox/CraftMap.git
 
+### Default Mac/Linux location
+cd ~/.minecraft/
+git clone https://github.com/alixvox/CraftMap.git
+```
+3. Install the dependencies:
+```
+pip install -r requirements.txt
+```
 ## Usage
 
 1. Start the Flask server: `flask run`
