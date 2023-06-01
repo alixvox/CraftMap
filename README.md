@@ -27,7 +27,6 @@ git clone https://github.com/alixvox/CraftMap.git
 4. Install the dependencies, including pymclevel:
 ```
 pip install -r requirements.txt
-python3 pymclevel/setup.py install
 ```
 ## Usage
 
